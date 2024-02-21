@@ -1,0 +1,28 @@
+<model-viewer src="scene.gltf" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="0.91" environment-image="whipple_creek_regional_park_04_1k.hdr" skybox-image="whipple_creek_regional_park_04_1k.hdr" exposure="1.16" shadow-softness="0.95">
+    <button class="Hotspot" slot="hotspot-2" data-position="0.13882561864297038m 0.06793827669824759m -3.631801395011979m" data-normal="0.9999449867366743m 0.009777394128093088m -0.0037981659068596916m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pillar 1</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.14335300948881202m 0.017594397045501517m -2.5756540543740827m" data-normal="0.9999449243018471m 0.009783046688070948m -0.0038000474302613023m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pillar 2</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.14701705886403793m 0.043695826648986406m -1.5499976105111781m" data-normal="0.9999449172480441m 0.009787450614668736m -0.003790551446390969m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pillar 3</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="0.15105361578199053m 0.03418992245495047m -0.5178956848017577m" data-normal="0.9999449447244493m 0.009782730624681962m -0.0037954843621525788m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pillar 4</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="0.15518729052786548m 0.019224509079469296m 0.5259654595985768m" data-normal="0.9999452120305592m 0.009753425539306939m -0.003800477260738105m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pillar 5</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="0.15481639970609523m 0.029578726819939734m 1.5594988250384787m" data-normal="0.9999500411388667m 0.009871753313624915m 0.0015696218952681192m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pillar 6</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="0.15287170119060667m 0.06368720362176104m 2.604518289259982m" data-normal="0.9999500880285014m 0.009867001809272337m 0.0015696264168202848m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pillar 7</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="0.15167378416542343m 0.04366649474194074m 3.620938993395194m" data-normal="0.9999837530925909m 0.005395081344508051m 0.0018402847993242916m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pillar 8</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
