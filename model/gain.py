@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module='sklearn')
 
 
 model = joblib.load('trained_model.joblib')
-dataframe = openpyxl.load_workbook(r'C:\Users\hp\OneDrive\Documents\Book2.xlsx')
+dataframe = openpyxl.load_workbook(r'Book2.xlsx')
 
 dataframe1 = dataframe.active
 l = []
