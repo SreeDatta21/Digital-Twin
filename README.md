@@ -13,9 +13,7 @@ A **Digital Twin** is a virtual replica or simulation of a physical object, syst
   - [Machine Learning](#machine-learning)
 - [How It Works](#how-it-works)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Future Work](#future-work)
-- [Acknowledgments](#acknowledgments)
+
 
 ---
 
@@ -66,7 +64,7 @@ The project provides early warnings about bridge health by analyzing sensor data
 1. **3D Model Creation:**  
    - A 3D representation of the bridge, pillars, and background is created using Blender.  
    - The environment and interactive buttons are set up using Model-Viewer to make the system user-friendly.  
-
+![b1](https://github.com/user-attachments/assets/3de473fa-fae9-4224-a682-db40b49a231b)
 2. **Sensor Data Collection:**  
    - The pillars of the bridge are simulated to include strain, temperature, and displacement sensors.  
    - These values are collected in real time and sent to a Flask server for processing.
@@ -78,9 +76,10 @@ The project provides early warnings about bridge health by analyzing sensor data
 4. **Visualization on Digital Twin:**  
    - The health condition is displayed on the 3D digital twin of the bridge.  
    - Buttons attached to each pillar allow users to view detailed health reports interactively.  
-
+![b2](https://github.com/user-attachments/assets/235a5648-4ee0-47a2-b854-287ee2e31903)
 5. **Real-Time Updates:**  
    - Sensor values are continually monitored and the digital twin is updated dynamically.
+![b3](https://github.com/user-attachments/assets/31736537-e0b0-4f91-9e7d-ec9fb58fc6bf)
 
 ---
 
@@ -89,3 +88,10 @@ The project provides early warnings about bridge health by analyzing sensor data
 1. Clone the repository:
    ```bash
    git clone https://github.com/SreeDatta21/Digital-Twin.git
+2. Install Depemdencies:
+   ```bash
+   pip install flask scikit-learn
+3. Start the Flask Server
+   ```bash
+   python app.py
+  ![c1](https://github.com/user-attachments/assets/80b408a4-d24f-4597-b6dd-f7134dcfd358)
