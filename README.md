@@ -94,4 +94,4 @@ The project provides early warnings about bridge health by analyzing sensor data
 3. Start the Flask Server
    ```bash
    python app.py
-  ![c1](https://github.com/user-attachments/assets/80b408a4-d24f-4597-b6dd-f7134dcfd358)
+ 
